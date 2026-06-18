@@ -13,7 +13,7 @@ import { PrismaModule } from "./prisma/prisma.module";
       validationSchema: validationSchema,
     }),
     BotModule,
-    PrismaModule
+    PrismaModule,
   ],
 })
 export class AppModule {}
